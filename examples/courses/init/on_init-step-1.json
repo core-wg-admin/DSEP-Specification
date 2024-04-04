@@ -211,7 +211,7 @@
         "address": "No 27, XYZ Lane, etc"
       },
       "payments": [
-        { 
+        {
           "params": {
             "amount": "150",
             "currency": "INR"
