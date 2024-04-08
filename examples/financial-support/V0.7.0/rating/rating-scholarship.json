@@ -23,10 +23,12 @@
         "ttl": "PT10M"
     },
     "message": {
-        "rating" : {
-            "rating_category": "Item",
-            "id" : "SCM_63587501",
-            "value" :"5"
-        }  
+        "rating" : [
+            {
+                "rating_category": "Item",
+                "id" : "SCM_63587501",
+                "value" :"5"
+            }  
+        ]
     }
 }
