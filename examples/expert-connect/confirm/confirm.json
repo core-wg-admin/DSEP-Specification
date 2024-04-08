@@ -8,7 +8,7 @@
         "bpp_uri": "https://dev.elevate-apis.shikshalokam.org/bpp",
         "timestamp": "2022-12-15T15:38:16.226Z",
         "message_id": "64109204-bdff-4af6-a76b-5a33f8aa8675",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "ttl": "PT10M",
         "transaction_id": "bdb5ba09-2241-4f00-b434-73466cd06228"
     },
@@ -32,10 +32,7 @@
             "billing": {
                 "name": "Van Bode III",
                 "phone": "881-311-2951 x01508",
-                "email": "Sonny_Auera1@yahoo1.com",
-                "time": {
-                    "timezone": "IST"
-                }
+                "email": "Sonny_Auera1@yahoo1.com"
             }
         }
     }

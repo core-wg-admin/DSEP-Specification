@@ -23,10 +23,12 @@
         "ttl": "PT10M"
     },
     "message": {
-        "rating" : {
-            "rating_category": "Provider",
-            "id" : "471",
-            "value" :"3"
-        }  
+        "rating" : [
+            {
+                "rating_category": "Provider",
+                "id" : "471",
+                "value" :"3"
+            }  
+        ]
     }
 }

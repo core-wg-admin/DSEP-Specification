@@ -13,10 +13,12 @@
         "timestamp": "2023-02-23T08:09:02.172Z"
     },
     "message": {
-        "rating" : {
-            "rating_category": "Provider",
-            "id" : "a23f2fdfbbb8ac402bf259d75402eb0792f50c095f7d08a55475e7af1c2dadca",
-            "value" :"4"
-        }  
+        "rating" : [
+            {
+                "rating_category": "Provider",
+                "id" : "a23f2fdfbbb8ac402bf259d75402eb0792f50c095f7d08a55475e7af1c2dadca",
+                "value" :"4"
+            }  
+        ]
     }
 }

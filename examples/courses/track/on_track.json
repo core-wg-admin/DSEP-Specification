@@ -13,10 +13,10 @@
     "timestamp": "2023-02-20T15:21:36.925Z"
   },
   "message": {
-    "tracking" : {
-      "id" : "66666ahhf9u385",
-      "url" : "tracking-url-for-course-progress",
-      "status" : "active"
+    "tracking": {
+      "id": "66666ahhf9u385",
+      "url": "tracking-url-for-course-progress",
+      "status": "active"
     }
   }
 }
