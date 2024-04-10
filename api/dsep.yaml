@@ -1649,16 +1649,12 @@ components:
           items:
             $ref: '#/components/schemas/TagGroup'
     AddOn:
-      description: This is typically an optional product or service that can be offered in addition to a product or a service of type Item. Objects of type AddOn should not exist without an associated Item. If a BAP receives an Item with an add-on, it must show it to the user as a selectable object. If any AddOn object is found without an associated Item object, then the validator must throw an error 'NO-PARENT=ITEM' with message 'No parent found' 
+      description: Describes an additional item offered as a value-addition to a product or service. This does not exist independently in a catalog and is always associated with an item.
       type: object
       properties:
         id:
+          description: Provider-defined ID of the add-on
           type: string
-          description: ID of the add-on as present in the source catalog
-        optional:
-          type: boolean
-          default: false
-          description: This value indicates if the add-on is optional or required to be selected by the user along with an Item. If this value is set to true, then the BAP must ensure that the add-on is mandatorily selected by the user while creating the Order object with the Item.
         descriptor:
           $ref: '#/components/schemas/Descriptor'
         price:
@@ -1992,29 +1988,19 @@ components:
       description: Describes duration as per ISO8601 format
       type: string
     Error:
-      description: Describes an error object
+      description: 'Describes an error object that is returned by a BAP, BPP or BG as a response or callback to an action by another network participant. This object is sent when any request received by a network participant is unacceptable. This object can be sent either during Ack or with the callback.'
       type: object
       properties:
-        type:
-          type: string
-          enum:
-            - CONTEXT-ERROR
-            - CORE-ERROR
-            - DOMAIN-ERROR
-            - POLICY-ERROR
-            - JSON-SCHEMA-ERROR
         code:
           type: string
-          description: 'Beckn specific error code. For full list of error codes, refer to docs/protocol-drafts/BECKN-RFC-005-ERROR-CODES-DRAFT-01.md of this repo'
-        path:
+          description: 'Standard error code. For full list of error codes, refer to docs/protocol-drafts/BECKN-005-ERROR-CODES-DRAFT-01.md of this repo"'
+        paths:
           type: string
           description: Path to json schema generating the error. Used only during json schema validation errors
         message:
           type: string
-          description: Human readable message describing the error
-      required:
-        - type
-        - code
+          description: Human readable message describing the error. Used mainly for logging. Not recommended to be shown to the user.
+    
     Fee:
       description: A fee applied on a particular entity
       type: object
