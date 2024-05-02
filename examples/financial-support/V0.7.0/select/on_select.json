@@ -14,7 +14,7 @@
         "action": "on_select",
         "timestamp": "2023-08-02T09:12:12.680Z",
         "ttl": "PT10M",
-        "version": "0.7.0",
+        "version": "1.1.0",
         "bap_id": "ps-bap-network.becknprotocol.io",
         "bap_uri": "https://ps-bap-network.becknprotocol.io/",
         "bpp_id": "beckn-sandbox-bpp.becknprotocol.io",
