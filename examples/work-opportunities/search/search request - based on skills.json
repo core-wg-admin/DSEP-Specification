@@ -12,8 +12,7 @@
     },
     "message": {
         "intent": {
-            "item": [
-                {
+            "item": {
                     "tags": [
                         {
                             "descriptor" : {
@@ -32,8 +31,8 @@
                             ]
                         }
                     ]
-                }
-            ]
+             }
+            
         }
     }
 }

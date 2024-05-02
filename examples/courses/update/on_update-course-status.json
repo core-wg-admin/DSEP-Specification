@@ -62,7 +62,9 @@
         {
           "id": "d4975df5-b18c-4772-80ad-368669856d52",
           "quantity": {
-            "maximum": 1
+            "maximum": {
+              "count": 1
+            }
           },
           "descriptor": {
             "name": "Everyday Conversational English",
@@ -185,13 +187,13 @@
         }
       ],
       "fulfillments": [
-        { 
-          "state" : {
-            "descriptor" : {
-                "code": "COMPLETED",
-                "name" : "Completed"
+        {
+          "state": {
+            "descriptor": {
+              "code": "COMPLETED",
+              "name": "Completed"
             },
-            "updated_at" : "2023-02-06T09:55:41.161Z"
+            "updated_at": "2023-02-06T09:55:41.161Z"
           },
           "agent": {
             "person": {
