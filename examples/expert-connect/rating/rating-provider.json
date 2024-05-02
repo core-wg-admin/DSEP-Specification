@@ -13,7 +13,7 @@
         "transaction_id": "bdb5ba09-2241-4f00-b434-73466cd06228"
     },
     "message": {
-        "rating" : [
+        "ratings" : [
             {
                 "rating_category": "Provider",
                 "id" : "63d93aea62820fd9e6be9d1b",
