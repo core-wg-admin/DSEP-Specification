@@ -1,0 +1,29 @@
+{
+    "context": {
+      "domain": "dsep:advisory",
+      "action": "search",
+      "timestamp": "2024-07-01T10:30:00.000Z",
+      "transaction_id": "1234-5678-9101",
+      "language": "en"
+    },
+    "message": {
+        "intent": {
+            "category": {
+                "descriptor": {
+                    "name": "Agriculture"
+                }
+            },
+            "item": {
+                "descriptor": {
+                    "name": "Aphid infestation remedies"
+                }
+            },
+            "provider": {
+                "descriptor": {
+                    "name": "Any"
+                }
+            },
+            "content-type": "Video"
+        }
+    }
+  }

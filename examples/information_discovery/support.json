@@ -1,0 +1,23 @@
+{
+    "context": {
+      "domain": "dsep:advisory",
+      "action": "support",
+      "timestamp": "2024-07-01T10:40:00.000Z",
+      "transaction_id": "3456-7890-1234",
+      "language": "en"
+    },
+    "message": {
+        "support-request": {
+            "ref_id": "video123",
+            "type": "Post-viewing Query",
+            "descriptor": {
+                "name": "Additional information on aphid control",
+                "long_desc": "I need more details on the organic pesticides mentioned in the video"
+            },
+            "customer": {
+                "name": "Moti",
+                "type":"Individual"
+            }
+        }
+    }
+  }

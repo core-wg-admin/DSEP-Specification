@@ -1,0 +1,24 @@
+{
+    "context": {
+      "domain": "dsep:advisory",
+      "action": "on_support",
+      "timestamp": "2024-07-01T10:45:00.000Z",
+      "transaction_id": "3456-7890-1234",
+      "language": "en"
+    },
+    "message": {
+      "support_response": {
+            "ref_id": "video123",
+            "type": "Post-viewing Query",
+            "descriptor": {
+                "name": "Response to query on organic pesticides",
+                "long_desc": "Detailed information on the organic pesticides mentioned in the video, including application methods and precautions."
+            },
+            "provider": {
+                "descriptor": {
+                    "name": "AgroExpert Solutions"
+                }
+            }
+        }
+    }
+  }
