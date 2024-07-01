@@ -1,0 +1,45 @@
+{
+    "context": {
+      "domain": "dsep:advisory",
+      "action": "on_search",
+      "timestamp": "2024-07-01T10:32:00.000Z",
+      "transaction_id": "1234-5678-9101",
+      "language": "en"
+    },
+    "message": {
+        "catalog": {
+        "descriptor": {
+          "name": "Search Results for Aphid infestation remedies"
+        },
+        "providers": [
+            {
+            "provider_id": "provider1",
+            "descriptor": {
+              "name": "AgroExpert Solutions"
+            },
+            "services": {
+                "items": [
+                {
+                    "id": "video123",
+                    "descriptor": {
+                        "name": "Effective Aphid Control Methods",
+                        "long_desc": "A 2-minute video on controlling aphid infestations in wheat crops",
+                        "link":"https://youtube.com/agr-bz1s34k-jkr"
+                    },
+                    "category": {
+                    "id": "AGR-VID-APH",
+                    "descriptor": {
+                        "name": "Agriculture Video - Aphid Control"
+                    }
+                    },
+                    "content-type": {
+                    "type": "Video"
+                    }
+                }
+                ]
+            }
+            }
+        ]
+        }
+    }
+  }

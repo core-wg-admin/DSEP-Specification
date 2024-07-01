@@ -1,0 +1,29 @@
+{
+    "context": {
+      "domain": "dsep:advisory",
+      "action": "select",
+      "timestamp": "2024-07-01T10:35:00.000Z",
+      "transaction_id": "2345-6789-0123",
+      "language": "en"
+    },
+    "message": {
+        "order": {
+            "item": {
+                "id": "video123",
+                "descriptor": {
+                    "name": "Effective Aphid Control Methods",
+                    "long_desc": "A 2-minute video on controlling aphid infestations in wheat crops",
+                    "link":"https://youtube.com/agr-bz1s34k-jkr"
+                },
+                "fulfillment": {
+                    "type": "Online",
+                    "agent": {
+                        "name": "AgroExpert Solutions",
+                        "long_desc": "We at AgroExpert Solutions, develop simple, effective and affordable remedies for common agriculture related problems.",
+                        "product_sold": "pesticide"
+                    }
+                }
+            }
+        }
+    }
+  }
