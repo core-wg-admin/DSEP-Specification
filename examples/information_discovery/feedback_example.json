@@ -1,0 +1,30 @@
+{
+  "scenario": "rating_and_feedback",
+  "user": {
+    "id": "U001",
+    "type": "farm_extension_worker"
+  },
+  "content_rated": {
+    "id": "VID001",
+    "type": "video",
+    "title": "Effective Aphid Control in Wheat Crops",
+    "provider": "AgroExpert Solutions"
+  },
+  "rating": {
+    "score": 5,
+    "timestamp": "2024-07-01T10:40:00Z"
+  },
+  "feedback": {
+    "text": "The video was extremely helpful. It provided clear, actionable advice on controlling Aphids in wheat crops. The fertilizer recommendations were particularly useful.",
+    "pros": [
+      "Clear explanations",
+      "Practical advice",
+      "Specific fertilizer recommendations"
+    ],
+    "cons": ["Could have been slightly longer to cover more details"]
+  },
+  "submission": {
+    "status": "completed",
+    "timestamp": "2024-07-01T10:42:00Z"
+  }
+}
