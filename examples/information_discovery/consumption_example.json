@@ -1,0 +1,34 @@
+{
+  "scenario": "consumption_of_product_service",
+  "user": {
+    "id": "U001",
+    "type": "farm_extension_worker"
+  },
+  "content": {
+    "id": "VID001",
+    "type": "video",
+    "title": "Effective Aphid Control in Wheat Crops",
+    "provider": "AgroExpert Solutions",
+    "duration": "2 minutes",
+    "status": "completed"
+  },
+  "playback": {
+    "start_time": "2024-07-01T10:30:00Z",
+    "end_time": "2024-07-01T10:32:00Z",
+    "completion_percentage": 100
+  },
+  "post_consumption_options": [
+    {
+      "type": "connect_to_support",
+      "action": "offered"
+    },
+    {
+      "type": "view_related_content",
+      "action": "offered"
+    },
+    {
+      "type": "provide_feedback",
+      "action": "offered"
+    }
+  ]
+}

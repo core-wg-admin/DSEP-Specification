@@ -1,0 +1,34 @@
+{
+  "scenario": "accessing_support",
+  "user": {
+    "id": "U001",
+    "type": "farm_extension_worker"
+  },
+  "support_request": {
+    "trigger": "post_video_prompt",
+    "action": "connect_to_support",
+    "timestamp": "2024-07-01T10:33:00Z"
+  },
+  "support_details": {
+    "provider": "AgroExpert Solutions",
+    "contact_options": [
+      {
+        "type": "email",
+        "value": "support@agroexpert.com"
+      },
+      {
+        "type": "phone",
+        "value": "+1234567890"
+      },
+      {
+        "type": "chat",
+        "value": "https://agroexpert.com/support-chat"
+      }
+    ]
+  },
+  "selected_option": {
+    "type": "chat",
+    "action": "initiated",
+    "timestamp": "2024-07-01T10:34:00Z"
+  }
+}

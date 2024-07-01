@@ -1,0 +1,46 @@
+{
+  "scenario": "discovery_of_product_service",
+  "user": {
+    "id": "U001",
+    "type": "farm_extension_worker"
+  },
+  "search": {
+    "query": "wheat aphid control",
+    "results": [
+      {
+        "id": "VID001",
+        "type": "video",
+        "title": "Effective Aphid Control in Wheat Crops",
+        "provider": "AgroExpert Solutions",
+        "duration": "2 minutes",
+        "description": "Learn about best practices and fertilizers to address Aphid infestation",
+        "tags": ["wheat", "aphid", "pest control", "fertilizers"]
+      },
+      {
+        "id": "PDF001",
+        "type": "pdf",
+        "title": "Comprehensive Guide to Wheat Pest Management",
+        "provider": "Agricultural Research Institute",
+        "pages": 15,
+        "description": "Detailed strategies for managing various wheat pests, including Aphids",
+        "tags": ["wheat", "pest management", "aphid", "best practices"]
+      }
+    ]
+  },
+  "selected_item": {
+    "id": "VID001",
+    "action": "view_details"
+  },
+  "item_details": {
+    "id": "VID001",
+    "type": "video",
+    "title": "Effective Aphid Control in Wheat Crops",
+    "provider": "AgroExpert Solutions",
+    "duration": "2 minutes",
+    "description": "This video demonstrates proven techniques for controlling Aphid infestations in wheat crops. It covers identification of Aphids, natural predators, and appropriate fertilizer applications.",
+    "tags": ["wheat", "aphid", "pest control", "fertilizers"],
+    "rating": 4.5,
+    "views": 1200,
+    "upload_date": "2024-03-15"
+  }
+}
