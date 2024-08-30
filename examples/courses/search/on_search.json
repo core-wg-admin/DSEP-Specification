@@ -9,8 +9,8 @@
     "message_id": "7db91181-718f-4720-83de-88e36e9f854e",
     "ttl": "PT10M",
     "timestamp": "2023-02-22T10:30:18.145Z",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "example.springboard.io",
+    "bpp_uri": "https://example.springboard.io"
   },
   "message": {
     "catalog": {
@@ -19,13 +19,13 @@
       },
       "providers": [
         {
-          "id": "INFOSYS",
+          "id": "example",
           "descriptor": {
-            "name": "Infosys Springboard",
-            "short_desc": "Infosys Springboard Digital literacy program",
+            "name": "example Springboard",
+            "short_desc": "example Springboard Digital literacy program",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/exampleheadstart/app_logos/landing-new.png",
                 "size_type": "sm"
               }
             ]
@@ -74,12 +74,12 @@
                 "long_desc": "<p><strong>Course Overview:</strong><br>Welcome to 'Everyday Conversational English,' your key to mastering essential language skills for real-life communication. Tailored for all levels, this course offers:</p><ol><li><strong>Practical Vocabulary:</strong><br>Learn everyday expressions for seamless communication.</li><li><strong>Interactive Role-Playing:</strong><br>Apply knowledge through immersive exercises for real-world scenarios.</li><li><strong>Cultural Insights:</strong><br>Gain cultural nuances to connect authentically in conversations.</li><li><strong>Real-Life Scenarios:</strong><br>Navigate common situations with confidence-building tools.</li><li><strong>Quiz Assessments:</strong><br>Reinforce learning through quizzes for ongoing skill development.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li><strong>Personal & Professional Growth:</strong><br>Enhance personal connections and gain a professional edge.</li><li><strong>Cultural Fluency:</strong><br>Understand and engage with diverse cultures confidently.</li><li><strong>Life-Long Skill:</strong><br>Develop a valuable skill applicable across various life stages.</li></ul><p>Join 'Everyday Conversational English' and elevate your communication for meaningful connections and success.</p>",
                 "images": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/exampleheadstart/everyday-conversational-english.png"
                   }
                 ],
                 "media": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                    "url": "https://infyspringboard.onwingspan.com/web/courses/exampleheadstart/everyday-conversational-english/preview/"
                   }
                 ]
               },
@@ -90,7 +90,7 @@
                   "long_desc": "Hello, I'm Prof. Emma Sullivan, your guide in 'Everyday Conversational English.' With over a decade of experience, I'm here to make language learning dynamic and culturally enriching. Let's explore practical communication skills together for personal and professional growth. Join me on this exciting journey!",
                   "images": [
                     {
-                      "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/ins/1.png"
+                      "url": "https://infyspringboard.onwingspan.com/web/assets/images/exampleheadstart/ins/1.png"
                     }
                   ]
                 }
@@ -164,7 +164,7 @@
             {
               "agent": {
                 "person": {
-                  "name": "Infosys Springboard"
+                  "name": "example Springboard"
                 },
                 "contact": {
                   "email": "support@infy.com"

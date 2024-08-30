@@ -75,7 +75,7 @@ No Errata exists as of now
     "message": {
         "catalog": {
             "descriptor": {
-                "name": "Affindi"
+                "name": "Example"
             },
             "providers": [
                 {

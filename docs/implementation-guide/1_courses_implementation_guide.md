@@ -75,8 +75,8 @@ An example catalog of courses may look like this
     "message_id": "7db91181-718f-4720-83de-88e36e9f854e",
     "ttl": "PT10M",
     "timestamp": "2023-02-22T10:30:18.145Z",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io"
   },
   "message": {
     "catalog": {
@@ -85,13 +85,13 @@ An example catalog of courses may look like this
       },
       "providers": [
         {
-          "id": "INFOSYS",
+          "id": "Example",
           "descriptor": {
-            "name": "Infosys Springboard",
-            "short_desc": "Infosys Springboard Digital literacy program",
+            "name": "Example Springboard",
+            "short_desc": "Example Springboard Digital literacy program",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
                 "size_type": "sm"
               }
             ]
@@ -130,12 +130,12 @@ An example catalog of courses may look like this
                 "long_desc": "Everyday Conversational English",
                 "images": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
                   }
                 ],
                 "media": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                    "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
                   }
                 ]
               },
@@ -159,12 +159,12 @@ An example catalog of courses may look like this
                 "long_desc": "English Grammar and Usage",
                 "images": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/english-grammar-and-usage.png"
+                    "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/english-grammar-and-usage.png"
                   }
                 ],
                 "media": [
                   {
-                    "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/english-grammar-and-usage/preview/"
+                    "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/english-grammar-and-usage/preview/"
                   }
                 ]
               },
@@ -254,13 +254,13 @@ Below is an example of a `select` request
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "timestamp": "2022-12-12T09:55:41.161Z",
     "ttl": "PT10M",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io"
   },
   "message": {
     "order": {
       "provider": {
-        "id": "INFOSYS"
+        "id": "Example"
       },
       "items": [
         {
@@ -281,8 +281,8 @@ Below is an example of an `on_select` callback
     "action": "on_select",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -291,13 +291,13 @@ Below is an example of an `on_select` callback
   "message": {
     "order": {
       "provider": {
-        "id": "INFOSYS",
+        "id": "Example",
         "descriptor": {
-          "name": "Infosys Springboard",
-          "short_desc": "Infosys Springboard Digital literacy program",
+          "name": "Example Springboard",
+          "short_desc": "Example Springboard Digital literacy program",
           "images": [
             {
-              "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+              "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
               "size_type": "sm"
             }
           ]
@@ -337,12 +337,12 @@ Below is an example of an `on_select` callback
             "long_desc": "Everyday Conversational English",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
               }
             ]
           },
@@ -441,13 +441,13 @@ Below is an example of a `init` request
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "timestamp": "2022-12-12T09:55:41.161Z",
     "ttl": "PT10M",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io"
   },
   "message": {
     "order": {
       "provider": {
-        "id": "INFOSYS"
+        "id": "Example"
       },
       "items": [
         {
@@ -455,7 +455,7 @@ Below is an example of a `init` request
         }
       ],
       "billing": {
-        "name": "Namma Yatri",
+        "name": "My yatri",
         "organization": {
           "address": "Girija Building, Number 817, Ganapathi Temple Rd",
           "city": "Bengaluru",
@@ -493,8 +493,8 @@ Below is an example of an `on_init` callback
     "action": "on_init",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -503,13 +503,13 @@ Below is an example of an `on_init` callback
   "message": {
     "order": {
       "provider": {
-        "id": "INFOSYS",
+        "id": "Example",
         "descriptor": {
-          "name": "Infosys Springboard",
-          "short_desc": "Infosys Springboard Digital literacy program",
+          "name": "Example Springboard",
+          "short_desc": "Example Springboard Digital literacy program",
           "images": [
             {
-              "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+              "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
               "size_type": "sm"
             }
           ]
@@ -526,12 +526,12 @@ Below is an example of an `on_init` callback
             "long_desc": "Everyday Conversational English",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
               }
             ]
           },
@@ -595,7 +595,7 @@ Below is an example of an `on_init` callback
         }
       ],
       "billing": {
-        "name": "Namma Yatri",
+        "name": "My yatri",
         "organization": {
           "address": "Girija Building, Number 817, Ganapathi Temple Rd",
           "city": "Bengaluru",
@@ -665,13 +665,13 @@ Below is an example of a `confirm` request
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "timestamp": "2022-12-12T09:55:41.161Z",
     "ttl": "PT10M",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io"
   },
   "message": {
     "order": {
       "provider": {
-        "id": "INFOSYS"
+        "id": "Example"
       },
       "items": [
         {
@@ -679,7 +679,7 @@ Below is an example of a `confirm` request
         }
       ],
       "billing": {
-        "name": "Namma Yatri",
+        "name": "My yatri",
         "organization": {
           "address": "Girija Building, Number 817, Ganapathi Temple Rd",
           "city": "Bengaluru",
@@ -725,8 +725,8 @@ Below is an example of an `on_confirm` callback
     "action": "on_confirm",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -736,13 +736,13 @@ Below is an example of an `on_confirm` callback
     "order": {
       "id": "d4975df5",
       "provider": {
-        "id": "INFOSYS",
+        "id": "Example",
         "descriptor": {
-          "name": "Infosys Springboard",
-          "short_desc": "Infosys Springboard Digital literacy program",
+          "name": "Example Springboard",
+          "short_desc": "Example Springboard Digital literacy program",
           "images": [
             {
-              "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+              "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
               "size_type": "sm"
             }
           ]
@@ -759,12 +759,12 @@ Below is an example of an `on_confirm` callback
             "long_desc": "Everyday Conversational English",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
               }
             ]
           },
@@ -834,12 +834,12 @@ Below is an example of an `on_confirm` callback
             "long_desc": "Everyday Conversational English - Chapter 1",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch1.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch1.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch1/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch1/"
               }
             ]
           }
@@ -852,12 +852,12 @@ Below is an example of an `on_confirm` callback
             "long_desc": "Everyday Conversational English - Chapter 2",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch2.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch2.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch2/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch2/"
               }
             ]
           }
@@ -870,19 +870,19 @@ Below is an example of an `on_confirm` callback
             "long_desc": "Everyday Conversational English - Chapter 3",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch3.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch3.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch3/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch3/"
               }
             ]
           }
         }
       ],
       "billing": {
-        "name": "Namma Yatri",
+        "name": "My yatri",
         "organization": {
           "address": "Girija Building, Number 817, Ganapathi Temple Rd",
           "city": "Bengaluru",
@@ -1014,8 +1014,8 @@ Below is an example of a `status` request
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "timestamp": "2022-12-12T09:55:41.161Z",
     "ttl": "PT10M",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io"
   },
   "message": {
     "order_id": "d4975df5"
@@ -1032,8 +1032,8 @@ Below is an example of an `on_status` callback
     "action": "on_status",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -1043,13 +1043,13 @@ Below is an example of an `on_status` callback
     "order": {
       "id": "d4975df5",
       "provider": {
-        "id": "INFOSYS",
+        "id": "Example",
         "descriptor": {
-          "name": "Infosys Springboard",
-          "short_desc": "Infosys Springboard Digital literacy program",
+          "name": "Example Springboard",
+          "short_desc": "Example Springboard Digital literacy program",
           "images": [
             {
-              "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+              "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
               "size_type": "sm"
             }
           ]
@@ -1066,12 +1066,12 @@ Below is an example of an `on_status` callback
             "long_desc": "Everyday Conversational English",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
               }
             ]
           },
@@ -1141,12 +1141,12 @@ Below is an example of an `on_status` callback
             "long_desc": "Everyday Conversational English - Chapter 1",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch1.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch1.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch1/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch1/"
               }
             ]
           }
@@ -1159,12 +1159,12 @@ Below is an example of an `on_status` callback
             "long_desc": "Everyday Conversational English - Chapter 2",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch2.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch2.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch2/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch2/"
               }
             ]
           }
@@ -1177,19 +1177,19 @@ Below is an example of an `on_status` callback
             "long_desc": "Everyday Conversational English - Chapter 3",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch3.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch3.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch3/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch3/"
               }
             ]
           }
         }
       ],
       "billing": {
-        "name": "Namma Yatri",
+        "name": "My yatri",
         "organization": {
           "address": "Girija Building, Number 817, Ganapathi Temple Rd",
           "city": "Bengaluru",
@@ -1256,8 +1256,8 @@ Below is an example of a `update` request
         "action": "update",
         "bap_id": "onest.becknprotocol.io",
         "bap_uri": "https://onest-network.becknprotocol.io/",
-        "bpp_id": "infosys.springboard.io",
-        "bpp_uri": "https://infosys.springboard.io",
+        "bpp_id": "Example.springboard.io",
+        "bpp_uri": "https://Example.springboard.io",
         "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
         "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
         "ttl": "PT10M",
@@ -1297,8 +1297,8 @@ Below is an example of a `on_update` callback
     "action": "on_update",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -1308,13 +1308,13 @@ Below is an example of a `on_update` callback
     "order": {
       "id": "12424kh",
       "provider": {
-        "id": "INFOSYS",
+        "id": "Example",
         "descriptor": {
-          "name": "Infosys Springboard",
-          "short_desc": "Infosys Springboard Digital literacy program",
+          "name": "Example Springboard",
+          "short_desc": "Example Springboard Digital literacy program",
           "images": [
             {
-              "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+              "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
               "size_type": "sm"
             }
           ]
@@ -1362,12 +1362,12 @@ Below is an example of a `on_update` callback
             "long_desc": "<p><strong>Course Overview:</strong><br>Welcome to 'Everyday Conversational English,' your key to mastering essential language skills for real-life communication. Tailored for all levels, this course offers:</p><ol><li><strong>Practical Vocabulary:</strong><br>Learn everyday expressions for seamless communication.</li><li><strong>Interactive Role-Playing:</strong><br>Apply knowledge through immersive exercises for real-world scenarios.</li><li><strong>Cultural Insights:</strong><br>Gain cultural nuances to connect authentically in conversations.</li><li><strong>Real-Life Scenarios:</strong><br>Navigate common situations with confidence-building tools.</li><li><strong>Quiz Assessments:</strong><br>Reinforce learning through quizzes for ongoing skill development.</li></ol><p><strong>Why Take This Course:</strong></p><ul><li><strong>Personal & Professional Growth:</strong><br>Enhance personal connections and gain a professional edge.</li><li><strong>Cultural Fluency:</strong><br>Understand and engage with diverse cultures confidently.</li><li><strong>Life-Long Skill:</strong><br>Develop a valuable skill applicable across various life stages.</li></ul><p>Join 'Everyday Conversational English' and elevate your communication for meaningful connections and success.</p>",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
               }
             ],
             "media": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
               }
             ]
           },
@@ -1378,7 +1378,7 @@ Below is an example of a `on_update` callback
               "long_desc": "Hello, I'm Prof. Emma Sullivan, your guide in 'Everyday Conversational English.' With over a decade of experience, I'm here to make language learning dynamic and culturally enriching. Let's explore practical communication skills together for personal and professional growth. Join me on this exciting journey!",
               "images": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/ins/1.png"
+                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/ins/1.png"
                 }
               ]
             }
@@ -1402,7 +1402,7 @@ Below is an example of a `on_update` callback
                 "media": [
                   {
                     "mimetype": "application/pdf",
-                    "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/outline.pdf"
+                    "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/outline.pdf"
                   }
                 ]
               }
@@ -1415,7 +1415,7 @@ Below is an example of a `on_update` callback
                 "media": [
                   {
                     "mimetype": "text/html",
-                    "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/prelim-quiz"
+                    "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/prelim-quiz"
                   }
                 ]
               }
@@ -1487,7 +1487,7 @@ Below is an example of a `on_update` callback
           },
           "agent": {
             "person": {
-              "name": "Infosys Springboard"
+              "name": "Example Springboard"
             },
             "contact": {
               "email": "support@infy.com"
@@ -1627,8 +1627,8 @@ Below is an example of a `cancel` request
         "action": "cancel",
         "bap_id": "onest.becknprotocol.io",
         "bap_uri": "https://onest-network.becknprotocol.io/",
-        "bpp_id": "infosys.springboard.io",
-        "bpp_uri": "https://infosys.springboard.io",
+        "bpp_id": "Example.springboard.io",
+        "bpp_uri": "https://Example.springboard.io",
         "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
         "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
         "ttl": "PT10M",
@@ -1652,8 +1652,8 @@ Below is an example of a `on_cancel` callback
       "action": "on_cancel",
       "bap_id": "onest.becknprotocol.io",
       "bap_uri": "https://onest-network.becknprotocol.io/",
-      "bpp_id": "infosys.springboard.io",
-      "bpp_uri": "https://infosys.springboard.io",
+      "bpp_id": "Example.springboard.io",
+      "bpp_uri": "https://Example.springboard.io",
       "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
       "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
       "ttl": "PT10M",
@@ -1663,13 +1663,13 @@ Below is an example of a `on_cancel` callback
       "order": {
         "id": "d4975df5",
         "provider": {
-          "id": "INFOSYS",
+          "id": "Example",
           "descriptor": {
-            "name": "Infosys Springboard",
-            "short_desc": "Infosys Springboard Digital literacy program",
+            "name": "Example Springboard",
+            "short_desc": "Example Springboard Digital literacy program",
             "images": [
               {
-                "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png",
+                "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/app_logos/landing-new.png",
                 "size_type": "sm"
               }
             ]
@@ -1686,12 +1686,12 @@ Below is an example of a `on_cancel` callback
               "long_desc": "Everyday Conversational English",
               "images": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english.png"
+                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english.png"
                 }
               ],
               "media": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/preview/"
+                  "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/preview/"
                 }
               ]
             },
@@ -1761,12 +1761,12 @@ Below is an example of a `on_cancel` callback
               "long_desc": "Everyday Conversational English - Chapter 1",
               "images": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch1.png"
+                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch1.png"
                 }
               ],
               "media": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch1/"
+                  "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch1/"
                 }
               ]
             }
@@ -1779,12 +1779,12 @@ Below is an example of a `on_cancel` callback
               "long_desc": "Everyday Conversational English - Chapter 2",
               "images": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch2.png"
+                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch2.png"
                 }
               ],
               "media": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch2/"
+                  "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch2/"
                 }
               ]
             }
@@ -1797,19 +1797,19 @@ Below is an example of a `on_cancel` callback
               "long_desc": "Everyday Conversational English - Chapter 3",
               "images": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/everyday-conversational-english-ch3.png"
+                  "url": "https://infyspringboard.onwingspan.com/web/assets/images/Exampleheadstart/everyday-conversational-english-ch3.png"
                 }
               ],
               "media": [
                 {
-                  "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english-ch3/"
+                  "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english-ch3/"
                 }
               ]
             }
           }
         ],
         "billing": {
-          "name": "Namma Yatri",
+          "name": "My yatri",
           "organization": {
             "address": "Girija Building, Number 817, Ganapathi Temple Rd",
             "city": "Bengaluru",
@@ -1833,7 +1833,7 @@ Below is an example of a `on_cancel` callback
                 "name": "Manjunath",
                 "creds": {
                   "type": "VerifiableCredential",
-                  "url": "https://infyspringboard.onwingspan.com/web/courses/infosysheadstart/everyday-conversational-english/certificate"
+                  "url": "https://infyspringboard.onwingspan.com/web/courses/Exampleheadstart/everyday-conversational-english/certificate"
                 }
               },
               "contact": {
@@ -1879,8 +1879,8 @@ Below is an example of a `track` request
         "action": "track",
         "bap_id": "onest.becknprotocol.io",
         "bap_uri": "https://onest-network.becknprotocol.io/",
-        "bpp_id": "infosys.springboard.io",
-        "bpp_uri": "https://infosys.springboard.io",
+        "bpp_id": "Example.springboard.io",
+        "bpp_uri": "https://Example.springboard.io",
         "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
         "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
         "ttl": "PT10M",
@@ -1900,8 +1900,8 @@ Below is an example of a `on_track` callback
     "action": "on_track",
     "bap_id": "onest.becknprotocol.io",
     "bap_uri": "https://onest-network.becknprotocol.io/",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io",
+    "bpp_id": "Example.springboard.io",
+    "bpp_uri": "https://Example.springboard.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
     "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
     "ttl": "PT10M",
@@ -1966,8 +1966,8 @@ Below is an example of a `get_rating_categories` request
 	    "action": "get_rating_categories",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",
@@ -1985,8 +1985,8 @@ Below is an example of an `rating_categories` callback
 	    "action": "rating_categories",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",
@@ -2012,8 +2012,8 @@ Below is an example of a `rating` request
 	    "action": "rating",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",
@@ -2037,8 +2037,8 @@ Below is an example of an `on_rating` callback
 	    "action": "on_rating",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",
@@ -2065,8 +2065,8 @@ Below is an example of a `support` request
 	    "action": "support",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",
@@ -2090,8 +2090,8 @@ Below is an example of an `on_support` callback
 	    "action": "on_support",
 	    "bap_id": "onest.becknprotocol.io",
 	    "bap_uri": "https://onest-network.becknprotocol.io/",
-	    "bpp_id": "infosys.springboard.io",
-	    "bpp_uri": "https://infosys.springboard.io",
+	    "bpp_id": "Example.springboard.io",
+	    "bpp_uri": "https://Example.springboard.io",
 	    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
 	    "message_id": "d514a38f-e112-4bb8-a3d8-b8e5d8dea82d",
 	    "ttl": "PT10M",

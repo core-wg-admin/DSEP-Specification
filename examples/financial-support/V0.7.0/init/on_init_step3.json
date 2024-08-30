@@ -27,7 +27,7 @@
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "my foundation Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -41,8 +41,8 @@
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "my foundation Scholarship for Undergraduate Students",
+                        "long_desc": "my foundation Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",

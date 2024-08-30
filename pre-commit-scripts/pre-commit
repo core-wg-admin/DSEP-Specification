@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+
+import os
+import subprocess
+import sys
+
+base_command = ['beckn-spec-validator', '-v', 'false', '-b', '../api/dsep.yaml', '-c']
+apis = ["search", "on_search", "select", "on_select", "init", "on_init", "confirm", "on_confirm", "status", "on_status", "update", "on_update", "rating", "on_rating", "support", "on_support", "track", "on_track", "cancel", "on_cancel"]
+shcemaPath = 'paths./{}.post.requestBody.content.application/json.schema'
+commands = {}
+
+def generate_commands():
+    for api in apis:
+        key = api
+        value = base_command + [shcemaPath.format(key)] + ['-s']
+        commands[key] = value
+
+def traverse_directory(directory):
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            file_path = os.path.join(root, file)
+            if file_path.endswith(".json"):
+                process_or_ignore(file, file_path)
+
+def process_or_ignore(file, file_path):
+    for api in apis:
+        #we need to fix the file naming convention for example files.
+        #make it required to start with ^<api_name>.
+        #it will make the exampple type identification safer.
+        #as of now, if a file has a name 'search-with-rating' it qaulifies to be validated
+        #both with search as well as rating schema.
+        if api in file:
+            print("validating {}".format(file_path))
+            validate(commands[api] + [file_path])
+            print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
+            break
+    
+def validate(command):
+    result=subprocess.run(command)
+    if result.returncode!=0:
+        #should print the output of error ?
+        #subprocess.check_output()
+        sys.exit(-1)
+
+directory_path = '../examples'
+generate_commands()
+traverse_directory(directory_path)

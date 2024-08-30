@@ -30,8 +30,8 @@
             "provider": {
                 "id": "ZQU31169990",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
-                    "short_desc": "XYZ Education Foundation"
+                    "name": "my foundation Foundation",
+                    "short_desc": "my foundation Foundation"
                 },
                 "rateable": false
             },
@@ -39,8 +39,8 @@
                 {
                     "id": "SCM_55274212",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "short_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "my foundation Scholarship for Undergraduate Students",
+                        "short_desc": "my foundation Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -49,7 +49,7 @@
                     "xinput": {
                         "required": true,
                         "form": {
-                            "url": "https://proteanrc.centralindia.cloudapp.azure.com/dsep-bpp-1/public/getForm/edea17fa-b5c4-48c9-86dd-1b80dda67d37/2a8b6441d63245bc97f70aaef8e70c75",
+                            "url": "https://pytreanrc.centralindia.cloudapp.azure.com/dsep-bpp-1/public/getForm/edea17fa-b5c4-48c9-86dd-1b80dda67d37/2a8b6441d63245bc97f70aaef8e70c75",
                             "data": {
                                 "name": "Rashmi G",
                                 "phone": "49867487",

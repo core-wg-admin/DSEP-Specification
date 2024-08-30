@@ -1,5 +1,5 @@
 ### Use case:
-Vidyasarathi is a platform for applying to various scholarships provided by corporates and Namma Yatri as seeker platform will help the user to avail scholarships through its platform.
+Vidyasarathi is a platform for applying to various scholarships provided by corporates and My yatri as seeker platform will help the user to avail scholarships through its platform.
 
 ### Flow Diagram:
 
@@ -22,7 +22,7 @@ Vidyasarathi is a platform for applying to various scholarships provided by corp
 1. Final confirmation to apply for scholarship screen is displayed to the user.
    1. **confirm API -** Request is made with order id, provider id, fulfillment id, customer details.
    1. **on\_confirm API -**  Response with confirmation details is received.
-1. User can fetch the scholarship processing status in the namma yatri application. When user clicks on ‘view status’, status is fetched and displayed in the application.
+1. User can fetch the scholarship processing status in the My yatri application. When user clicks on ‘view status’, status is fetched and displayed in the application.
    1. **status API -** Request is made with order id.
    1. **on\_status API -** Response with scholarship processing status is received.
 
@@ -177,7 +177,7 @@ Vidyasarathi is a platform for applying to various scholarships provided by corp
             {
                "id": "BX213573733",
                "descriptor": {
-                  "name": "XYZ Education Foundation",
+                  "name": "My Education Foundation",
                   "short_desc" : "Short Description about the Foundation",
                   "images": [
                      {
@@ -223,8 +223,8 @@ Vidyasarathi is a platform for applying to various scholarships provided by corp
                   {
                      "id": "SCM_63587501",
                      "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                      },
                      "price": {
                         "currency": "INR",
@@ -301,7 +301,7 @@ Vidyasarathi is a platform for applying to various scholarships provided by corp
             "name": "Manjunath",
             "organization": {
                "descriptor": {
-                  "name": "Namma Yatri",
+                  "name": "My yatri",
                   "code": "nammayatri.in"
                },
                "contact": {
@@ -375,7 +375,7 @@ step 1:
          "provider": {
             "id": "471",
             "descriptor": {
-               "name": "XYZ Education Foundation",
+               "name": "My Education Foundation",
                "short_desc" : "Short Description about the Foundation",
                "images": [
                   {
@@ -389,8 +389,8 @@ step 1:
             {
                "id": "SCM_63587501",
                "descriptor": {
-                  "name": "XYZ Education Scholarship for Undergraduate Students",
-                  "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                  "name": "My Education Scholarship for Undergraduate Students",
+                  "long_desc": "My Education Scholarship for Undergraduate Students"
                },
                "price": {
                   "currency": "INR",
@@ -608,7 +608,7 @@ step 1:
             "name": "Manjunath",
             "organization": {
                "descriptor": {
-                  "name": "Namma Yatri",
+                  "name": "My yatri",
                   "code": "nammayatri.in"
                },
                "contact": {
@@ -741,7 +741,7 @@ step 2:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -755,8 +755,8 @@ step 2:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -974,7 +974,7 @@ step 2:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -1107,7 +1107,7 @@ step 3:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -1121,8 +1121,8 @@ step 3:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -1340,7 +1340,7 @@ step 3:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -1473,7 +1473,7 @@ step 4:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -1487,8 +1487,8 @@ step 4:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -1706,7 +1706,7 @@ step 4:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -1839,7 +1839,7 @@ step 5:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -1853,8 +1853,8 @@ step 5:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -2042,7 +2042,7 @@ step 5:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -2195,7 +2195,7 @@ step 5:
             "name": "Manjunath",
             "organization": {
                "descriptor": {
-                  "name": "Namma Yatri",
+                  "name": "My yatri",
                   "code": "nammayatri.in"
                },
                "contact": {
@@ -2267,7 +2267,7 @@ step 5:
          "provider": {
             "id": "471",
             "descriptor": {
-               "name": "XYZ Education Foundation",
+               "name": "My Education Foundation",
                "short_desc" : "Short Description about the Foundation",
                "images": [
                   {
@@ -2281,8 +2281,8 @@ step 5:
             {
                "id": "SCM_63587501",
                "descriptor": {
-                  "name": "XYZ Education Scholarship for Undergraduate Students",
-                  "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                  "name": "My Education Scholarship for Undergraduate Students",
+                  "long_desc": "My Education Scholarship for Undergraduate Students"
                },
                "price": {
                   "currency": "INR",
@@ -2470,7 +2470,7 @@ step 5:
             "name": "Manjunath",
             "organization": {
                "descriptor": {
-                  "name": "Namma Yatri",
+                  "name": "My yatri",
                   "code": "nammayatri.in"
                },
                "contact": {
@@ -2720,7 +2720,7 @@ step 5:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -2734,8 +2734,8 @@ step 5:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -2923,7 +2923,7 @@ step 5:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -3078,7 +3078,7 @@ step 5:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -3092,8 +3092,8 @@ step 5:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -3281,7 +3281,7 @@ step 5:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -3440,7 +3440,7 @@ step 5:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -3454,8 +3454,8 @@ step 5:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -3643,7 +3643,7 @@ step 5:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {
@@ -3857,7 +3857,7 @@ step 5:
          "provider": {
             "id": "471",
             "descriptor": {
-               "name": "XYZ Education Foundation",
+               "name": "My Education Foundation",
                "short_desc" : "Short Description about the Foundation",
                "images": [
                   {
@@ -3871,8 +3871,8 @@ step 5:
             {
                "id": "SCM_63587501",
                "descriptor": {
-                  "name": "XYZ Education Scholarship for Undergraduate Students",
-                  "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                  "name": "My Education Scholarship for Undergraduate Students",
+                  "long_desc": "My Education Scholarship for Undergraduate Students"
                },
                "price": {
                   "currency": "INR",
@@ -4060,7 +4060,7 @@ step 5:
             "name": "Manjunath",
             "organization": {
                "descriptor": {
-                  "name": "Namma Yatri",
+                  "name": "My yatri",
                   "code": "nammayatri.in"
                },
                "contact": {
@@ -4216,7 +4216,7 @@ step 5:
             "provider": {
                 "id": "471",
                 "descriptor": {
-                    "name": "XYZ Education Foundation",
+                    "name": "My Education Foundation",
                     "short_desc" : "Short Description about the Foundation",
                     "images": [
                         {
@@ -4230,8 +4230,8 @@ step 5:
                 {
                     "id": "SCM_63587501",
                     "descriptor": {
-                        "name": "XYZ Education Scholarship for Undergraduate Students",
-                        "long_desc": "XYZ Education Scholarship for Undergraduate Students"
+                        "name": "My Education Scholarship for Undergraduate Students",
+                        "long_desc": "My Education Scholarship for Undergraduate Students"
                     },
                     "price": {
                         "currency": "INR",
@@ -4419,7 +4419,7 @@ step 5:
                 "name": "Manjunath",
                 "organization": {
                     "descriptor": {
-                        "name": "Namma Yatri",
+                        "name": "My yatri",
                         "code": "nammayatri.in"
                     },
                     "contact": {

@@ -9,8 +9,8 @@
     "message_id": "$bb579fb8-cb82-4824-be12-fcbc405b6608",
     "timestamp": "2022-12-12T09:55:41.161Z",
     "ttl": "PT10M",
-    "bpp_id": "infosys.springboard.io",
-    "bpp_uri": "https://infosys.springboard.io"
+    "bpp_id": "example.springboard.io",
+    "bpp_uri": "https://example.springboard.io"
   },
   "message": {
     "support": {

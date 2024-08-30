@@ -4,8 +4,8 @@
         "action": "on_select",
         "bap_id": "dsep-protocol.becknprotocol.io",
         "bap_uri": "https://dsep-protocol-network.becknprotocol.io/",
-        "bpp_id": "dev.elevate-apis.shikshalokam.org/bpp",
-        "bpp_uri": "https://dev.elevate-apis.shikshalokam.org/bpp",
+        "bpp_id": "dev.elevate-apis.totor.org/bpp",
+        "bpp_uri": "https://dev.elevate-apis.totor.org/bpp",
         "timestamp": "2023-02-22T12:15:37.311Z",
         "ttl": "PT10M",
         "version": "1.0.0",
@@ -26,9 +26,9 @@
                 ],
                 "id": "63d93aea62820fd9e6be9d1b",
                 "descriptor": {
-                    "code": "org7",
-                    "name": "ShikshalokamSeven",
-                    "short_desc": "ShikshalokamOrgSeven"
+                    "code": "myorg",
+                    "name": "totorSeven",
+                    "short_desc": "totorOrgSeven"
                 },
                 "items": [
                     {
